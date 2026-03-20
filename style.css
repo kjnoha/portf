@@ -1103,7 +1103,7 @@
       }
 
       .hero-card {
-        flex-direction: column;
+        flex-direction: column-reverse;
         padding: 32px;
         gap: 32px;
       }
