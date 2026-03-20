@@ -118,6 +118,7 @@
 
     .hero-card {
       display: flex;
+      flex-direction: row-reverse;
       align-items: center;
       justify-content: space-between;
       background: rgba(30, 30, 36, 0.25);
@@ -1103,7 +1104,7 @@
       }
 
       .hero-card {
-        flex-direction: column-reverse;
+        flex-direction: column;
         padding: 32px;
         gap: 32px;
       }
